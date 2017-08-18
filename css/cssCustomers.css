@@ -1,0 +1,18 @@
+table{
+    width: 90%;
+    margin-left: 5%;
+    text-align: center;
+}
+tr{
+    width: 100%;
+    height: auto;
+}
+td, th{
+    width: auto;
+    height: auto;
+}
+fieldset{
+    text-align: center;
+    width: 50%;
+    margin-left: 25%;
+}
