@@ -1,0 +1,1 @@
+<h2>Copyright &copy; w3school.com</h2>

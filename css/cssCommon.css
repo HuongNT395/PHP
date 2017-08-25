@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+div.container {
+    width: 100%;
+    border: 1px solid blue;
+}
+header, footer {
+    padding: 1em;
+    color: white;
+    background-color: black;
+    clear: both;
+    text-align: center;
+}
+nav {
+    float: left;
+    max-width: 160px;
+    padding: 1em;
+}
+nav ul {
+    list-style-type: none;
+}
+nav ul a{
+    text-decoration: none;
+}
+article{
+    margin-left: 170px;
+    border-left:  1px solid gray;
+    padding: 1em;
+    overflow: hidden;
+}
