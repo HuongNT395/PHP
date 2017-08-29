@@ -1,3 +1,13 @@
+
+a{
+    text-decoration: none;
+    color: blue;
+}
+a:hover{
+    font-weight: 600;
+    color: blueviolet;
+    cursor: pointer;
+}
 td, th{
     font-size: 16px;
     padding: 10px;
@@ -9,7 +19,5 @@ table{
     border-collapse: collapse;
     width: 60%;
     height: auto;
-}
-a{
-    text-decoration: none;
+    text-align: center;
 }

@@ -8,7 +8,7 @@
  */
 class ConnectDB
 {
-    private $dsn = 'mysql:host=localhost;dbname=my_guitar_shop1';
+    private  $dsn = 'mysql:host=localhost;dbname=my_guitar_shop1';
     private $username = 'huongnt';
     private $password = '123456';
 
@@ -16,7 +16,7 @@ class ConnectDB
         try {
             global $conn;
             $conn = new PDO($this->dsn, $this->username, $this->password);
-            echo 'connect successfully';
+//            echo 'connect successfully';
             return $conn;
         } catch (PDOException $e) {
             $error = $e->getMessage();
